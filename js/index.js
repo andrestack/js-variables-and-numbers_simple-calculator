@@ -105,7 +105,7 @@ multiplyByTwoButton.addEventListener("click", () => {
 });
 
 divideByTwoButton.addEventListener("click", () => {
-  const divideTwo = +a / 2;
+  const divideTwo = operand1 / 2;
   console.log(divideTwo);
 
   // 12. Divide the value of "operand1" by 2. Log the new value to the console.
